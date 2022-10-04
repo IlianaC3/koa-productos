@@ -1,0 +1,81 @@
+type Productos {
+  id: Int,
+  title: String,
+  price: Int,
+  thumbnail: String
+}
+
+type Autor {
+    id: String,
+    nombre: String,
+    apellido: String,
+    edad: Int,
+    alias: String,
+    avatar: String,
+}
+
+type Mensajes {
+    id: ID,
+    text: String,
+    timestamp: String,
+    autor: Autor
+}
+
+type Usuarios {
+    id: ID,
+    email: String,
+    nombre: String,
+    password: String
+}
+
+type DataInfo {
+    args: String,
+    platform: String,
+    version: String,
+    path: String,
+    id: String,
+    folder: String,
+    rss: String,
+}
+
+type Info {
+    data: DataInfo,
+    test: String 
+}
+
+input SaveProductInput {
+  title: String,
+  price: Int,
+  thumbnail: String
+}
+
+input ChatSave{
+    id: String,
+    text: String,
+    nombre: String,
+    apellido: String,
+    edad: Int,
+    avatar: String,
+    alias: String,
+    email: String
+}
+
+type Query {
+    ProductId(id: Int): Productos
+    ProductAll: [Productos]
+    GetMensajes: [Mensajes]
+    ProductosFaker: [Productos]
+    RandomsChild(cant: Int): String,
+    Randoms(cant: Int): String
+    InfoProject: Info
+}
+
+type Mutation {
+    SaveProduct(product: SaveProductInput): String
+    UpdateProduct(id: Int, product: SaveProductInput): String
+    DeleteProduct(id: Int): String
+    SaveMensaje(chat: ChatSave): [Mensajes]
+    Login(email: String, password: String): Usuarios
+    Signup(email: String, password: String): Usuarios
+}
+

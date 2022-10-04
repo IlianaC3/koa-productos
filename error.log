@@ -1,0 +1,19 @@
+[2022-09-24T19:57:15.269] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'id') al ejecutar save en Mensaje
+[2022-09-24T19:59:48.411] [ERROR] default - Error: ValidationError: id: Path `id` is required. al ejecutar save en Mensaje
+[2022-09-24T19:59:48.412] [ERROR] default - No se pudo guardar el mensaje
+[2022-09-24T20:01:58.561] [ERROR] default - Error: ReferenceError: object is not defined al ejecutar save en Mensaje
+[2022-09-24T20:01:58.563] [ERROR] default - No se pudo guardar el mensaje
+[2022-09-24T20:03:28.143] [ERROR] default - Error: ReferenceError: object is not defined al ejecutar save en Mensaje
+[2022-09-24T20:03:28.145] [ERROR] default - No se pudo guardar el mensaje
+[2022-10-01T19:27:28.274] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:27:28.541] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:28:15.781] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:29:46.872] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:30:34.308] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:30:35.805] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:31:23.768] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:32:10.767] [ERROR] default - Error: TypeError: Cannot read properties of undefined (reading 'find') al ejecutar read en Mensaje
+[2022-10-01T19:32:21.036] [ERROR] default - Error: ReferenceError: ChatsNorm is not defined al ejecutar read en Mensaje
+[2022-10-01T19:33:08.852] [ERROR] default - Error: ReferenceError: ChatsNorm is not defined al ejecutar read en Mensaje
+[2022-10-01T19:33:30.904] [ERROR] default - Error: ReferenceError: ChatsNorm is not defined al ejecutar read en Mensaje
+[2022-10-04T19:42:38.564] [ERROR] default - No se pudo realizar la lectura del producto 1
